@@ -5,7 +5,7 @@
 ### Installation des Dépendances
 
 #### Python 3.10.0
-#### pip 21.3.1 from C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\site-packages\pip (python 3.10)
+#### pip 21.3.1 from C:\Users\INTEGRATIONS PLUS\AppData\Local\Programs\Python\Python310\lib\site-packages\pip (python 3.10)
 
 Suivez les instructions suivantes pour installer l'ancienne version de python sur la plateforme [python docs](https://www.python.org/downloads/windows/#getting-and-installing-the-latest-version-of-python)
 
