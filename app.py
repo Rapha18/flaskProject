@@ -14,7 +14,7 @@ database=quote_plus(os.getenv('database'))
 port=quote_plus(os.getenv('port'))
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "{}://{}:{}@{}:{}/{}".format(dialect,user,motdepasse,host,port,database)
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://ndckkzeqdicovm:fd4c01724735b95d2fe0bfc4d64468386d331793a78e395682c6ed2e02d981f2@ec2-54-157-160-218.compute-1.amazonaws.com:5432/d6i75jaq0h3m9h"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
